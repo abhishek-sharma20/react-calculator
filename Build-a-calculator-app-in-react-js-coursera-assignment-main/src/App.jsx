@@ -5,7 +5,6 @@ const App = () => {
   const inputRef = useRef(null);
   const resultRef = useRef(null);
   const [result, setResult] = useState(0);
-
   // function for add
   const plus = (e) => {
     e.preventDefault();
